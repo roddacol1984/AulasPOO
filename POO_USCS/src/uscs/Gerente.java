@@ -40,12 +40,12 @@ public class Gerente extends Empregado {
 	
 	@Override
 	public double calculaSalario() {
-		return(calculaSalario() + this.bonus);
+		return(super.calculaSalario() + this.bonus);
 		
 	}
 	@Override
 	public void imprimeSalario() {
 		System.out.println("Nome do Gerente: " + super.getNome());
-		System.out.println("Sal[ario do Gerente: " + this.calculaSalario());
+		System.out.println("Salario do Gerente: " + this.calculaSalario());
 	}
 }

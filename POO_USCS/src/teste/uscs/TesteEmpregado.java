@@ -12,8 +12,12 @@ public class TesteEmpregado {
 		e.imprimeEmpregado();
 		e.imprimeSalario();
 		
-		Gerente g = new Gerente("Carlos", "Rua Alegre", 50.0, 200, "Ana", 2000);
+		Gerente g = new Gerente("Carlos", "Rua Alegre", 50.0, 200, "Ana", 200.00);
 		g.imprimeEmpregado();
-	}
+		
+		Gerente h = new Gerente("Rodrigo", "Av Alegre", 60.0, 120, "Marcia", 150.00);
+		h.imprimeEmpregado();
+		h.imprimeSalario();
+		}
 
 }
