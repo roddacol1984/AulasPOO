@@ -13,7 +13,7 @@ public class TesteEmpregado {
 		e.imprimeSalario();
 		
 		Gerente g = new Gerente("Carlos", "Rua Alegre", 50.0, 200, "Ana", 2000);
-		System.out.println();
+		g.imprimeEmpregado();
 	}
 
 }
